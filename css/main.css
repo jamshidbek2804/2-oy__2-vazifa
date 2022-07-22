@@ -633,7 +633,7 @@ img {
 
 .messangers,
 .footer__logo:hover {
-  cursor: pointer;
+  cursor: progress;
 }
 
 .messangers:hover path {
