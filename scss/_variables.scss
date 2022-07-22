@@ -1,0 +1,49 @@
+// $your-variable-name: example: red, 18px, italic, "Arial", 700;
+//font-family: 'Barlow', sans-serif;
+//font-family: 'Fraunces', serif;
+
+%flex-sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin container {
+  max-width: 1280px;
+  margin: 0 auto;
+  //   padding: 0 20px;
+}
+
+@mixin tablet-container {
+  max-width: 689px;
+  margin: 0 auto;
+}
+
+@mixin main-container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@mixin mobile-container {
+  max-width: 327px;
+  margin: 0 auto;
+}
+
+@mixin font-fraunces {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+
+@mixin font-barlow {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+}

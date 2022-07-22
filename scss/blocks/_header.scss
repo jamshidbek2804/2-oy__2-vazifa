@@ -1,0 +1,42 @@
+.header {
+  max-width: 100%;
+
+  &__container {
+    @include container;
+  }
+
+  &__info {
+    margin: 43px auto;
+    @extend %flex-sb;
+  }
+
+  &__hamburger {
+    display: none;
+  }
+
+  &__navbar {
+    list-style-type: none;
+  }
+
+  &__nav-list {
+    display: inline-block;
+  }
+
+  &__nav-list-item {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #83888f;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  &__nav-list-item-2 {
+    margin: 0 32px;
+  }
+
+  &__nav-list-item:hover {
+    color: black;
+  }
+}

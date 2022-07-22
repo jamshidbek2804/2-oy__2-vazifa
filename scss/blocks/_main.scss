@@ -1,0 +1,29 @@
+.main {
+  margin-top: 168px;
+  max-width: 100%;
+  &__container {
+    @include main-container;
+  }
+
+  &__info {
+    @extend %flex-sb;
+    margin-bottom: 220px;
+  }
+
+  &__text-area {
+    max-width: 540px;
+  }
+
+  &__title {
+    font-family: "Fraunces" sans-serif;
+    @include font-fraunces;
+    color: #333d4b;
+  }
+
+  &__paragaraf {
+    @include font-barlow;
+    color: #333d4b;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+}
